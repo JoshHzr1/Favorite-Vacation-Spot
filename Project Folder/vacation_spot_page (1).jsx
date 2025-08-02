@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Favorite Vacation Spots</title>
+  <link rel="stylesheet" href="style.css"></link>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 1em;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 0.5em;
+    }
+    p {
+      line-height: 1.6;
+    }
+    .button {
+      display: block;
+      width: fit-content;
+      margin: 30px auto 0;
+      padding: 10px 20px;
+      background-color: #4a90e2;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #357ab8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Favorite Vacation Spots: Okinawa & Korea</h1>
+
+    <div class="card">
+      <h2>Personal Connection</h2>
+      <p>
+        Okinawa and Korea are more than destinations—they are personal sanctuaries. I’ve
+        traveled to both for business and leisure, and over time, they’ve become places
+        of growth, comfort, and emotional grounding.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Emotions & Memories</h2>
+      <p>
+        Raised in an all-Asian household, I feel at home in the high-context cultures of
+        Japan and Korea. Respect, family, and tradition echo through every moment I spend
+        there. The food, especially, brings back memories of my grandmother’s cooking.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Why Others Would Love It</h2>
+      <p>
+        These cultures emphasize humility, kindness, and care. The sense of community and
+        strong family ties create a warm, respectful environment that visitors from all
+        walks of life can appreciate and find peace in.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Why I Keep Going Back</h2>
+      <p>
+        Okinawa and Korea embody everything I value—tradition, connection, and peace.
+        The friends and family I've met there make it feel like home. These places
+        aren’t just vacation spots; they’re woven into who I am.
+      </p>
+    </div>
+
+    <button class="button">Plan Your Trip</button>
+  </div>
+</body>
+</html>
